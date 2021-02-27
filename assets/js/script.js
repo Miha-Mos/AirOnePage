@@ -39,8 +39,9 @@ $(function() {
 
 $(function() {
   $('.part4-container').hover(function() {
-    $(this).toggleClass('icon-active'),
-    $('.icon-active > .icon-container').slideToggle()
+    $(this).addClass('icon-active'),
+    $('.icon-active > .icon-container').slideToggle(),
+    $(this).removeClass('icon-active')
   });
 });
 

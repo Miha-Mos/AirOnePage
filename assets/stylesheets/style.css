@@ -131,8 +131,7 @@ button:focus{
   float: right;
  }
  .nav-wrapper{
-  display: flex;
-  flex-direction: column;
+  display: none;
   margin-top: 35px;
  }
  .part2-column-wrap{
